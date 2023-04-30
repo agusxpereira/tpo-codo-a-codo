@@ -1,0 +1,130 @@
+.box{
+    min-width: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+} 
+
+.header{
+    max-height: 15%;
+    min-height: 15%;
+    color: white;
+}
+
+.img-logo-cac{
+    background-image: url(../assets/img/codoacodo.png) ;
+    background-position: center;
+    background-size: cover;
+    height: 10vh; 
+
+
+}
+
+
+.imgFondo{
+    background-image: url(../assets/img/ba1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    /* combinamos el color de fondo con la imagen */
+    background-color: rgb(101,92,92);
+    background-blend-mode: soft-light;
+}
+.some-dive{
+    position: absolute;
+    left: 75%;
+}
+.side-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(202, 202, 202);
+    margin-right: 30px;
+}
+.side-ul > li:hover{
+    color:white;
+}
+li{
+    list-style: none;
+    padding: 5px;
+    font-size: small;
+} 
+span > li{
+    color:green;
+}
+.banner{
+    color:white
+}
+.content-p{
+    text-align: right;
+    margin-right: 20px;
+} 
+.content-title{
+    margin-left: 250px;
+}
+
+.item-group-button{
+    width: 100%;
+} 
+.btn-content{
+    min-width: 190px;
+    max-width: 190px;
+    padding: 10px;
+    color:whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px white solid;
+    border-radius: 5%;
+}
+
+.btn-content.btn-buy{
+    border: 0px;
+    background-color: green;
+}
+.fondoHonolulu{
+    background-image: url(../assets/img/honolulu.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    /* combinamos el color de fondo con la imagen */
+    background-color: rgb(101,92,92);
+    /* background-blend-mode: soft-light; */
+} 
+
+.info{
+    background-color: rgb(80, 74, 74); 
+    display: flex; 
+    flex-direction: column; 
+    color: aliceblue;
+} 
+
+.info > h2, .info > p, .info > button{
+    margin-top: 10px;
+    margin-left: 10px;
+} 
+.form-orador{
+    width: 100%;
+}
+.footer{
+    color: white;
+}
+.footer > a{
+    text-decoration: none;
+    
+}
+.box-p{ 
+    font-size: 16px; 
+    font-weight: 500;
+    margin-left: 10px;
+    max-width: 50px;
+    min-width: 50px;
+} 
+.btn-cien{
+    width: 100%;
+    padding: 10px;
+    color:whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px white solid;
+    border-radius: 5%;
+}
