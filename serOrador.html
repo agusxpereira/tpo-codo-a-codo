@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css".css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="container-fluid">
+        <div class="row bg-dark header">
+            <nav class="navbar navbar-light ">
+
+                <div class="col-6 d-flex flex-row justify-content-start align-items-center">
+                    <img src="assets/img/codoacodo.png" alt="" srcset="" class="img-logo-cac">
+                    <h1 class="ml-5">BsAs</h1>
+                </div>
+                <div class="col-6 d-flex flex-row justify-content-center align-items-center">
+                    <ul class="side-ul">
+                        <li>La conferencia</li>
+                        <li>Los oradores</li>
+                        <li>El lugar y la fecha</li>
+                        <li>Conviertete en Orador</li>
+                        <span>
+                            <li>Comprar tickets</li>
+                        </span>
+                            
+                    </ul>
+                </div>
+            </nav> 
+
+        </div> 
+        <!-- form + js -->
+        <div class="content ticket">
+            <div class="content cupones">
+                <div class="box student" name="student" id="student">
+                    <h2>Estudiante</h2>
+                    <p>Tiene un descuento</p>
+                    <p><b>80%</b></p> 
+                    <span>* presentar documentacion</span>
+                </div>
+           
+                <div class="box trainee" id="trainee"> 
+                    <h2>Trainee</h2>
+                    <p>Tiene un descuento</p>
+                    <p><b>50%</b></p> 
+                    <span>* presentar documentacion</span>
+                </div>
+                <div class="box junior" id="junior"> 
+                    <h2>Junior</h2>
+                    <p>Tiene un descuento</p>
+                    <p> <b>15%</b></p> 
+                    <span>* presentar documentacion</span>
+                </div>
+            </div>
+            <div class="content formulario">
+                <span>VENTA</span>
+                <h2>VENTA DE TICKETS $200</h2>
+                <form action="" id="form-compra">
+                    <div class="input-group">
+                        <input type="text" name="name" class="input" placeholder="Nombre">
+                        <input type="text" name="lastname" class=" input" placeholder="Apellido">
+                    </div>
+                    <input type="text" name="correo" placeholder="Correo" class="input">
+                    <!-- cantidad y categoria -->
+                    <div class="input-group">
+                        <label for="cantidad">Cantidad</br>
+                            <input type="number" name="cantidad" id="inp-cantidad" required>
+                        </label>
+                        <label for="categoria">
+                            Categoria </br>
+                            <select type="text" name="categoria" id="categoria">
+                                <option  class="option" value="student">Student</option>
+                                <option class="option" value="trainee">Trainee</option>
+                                <option class="option" value="junior">Junior</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="total" id="total">
+                        <p>total a pagar: $</p> 
+                    </div>
+                    <div class="item-group-button">
+                        <input type="reset" class="btn-content btn-accion ">
+                        <button class="btn-content btn-accion" id="btn-calcular" >Resumen</button>
+                    </div>
+                    </form>
+            </div>
+
+
+        </div>
+
+        <!-- footer -->
+        <div class="container-fluid footer bg-primary mt-5">
+            <div class="row d-flex justify-content-center">
+                        <div class="col-8 d-flex flex-row  justify-content-around align-items-center">
+                            <p class="box-p">Preguntas Frecuentes</p>
+                            <p class="box-p">Contacto</a>
+                            <p class="box-p"> Prensa</p>
+                            <p class="box-p"> Conferencias</a></p>
+                            <p class="box-p"> Terminos y condiciones</p>
+                            <p class="box-p"> Privacidad</p>
+                            <p class="box-p"> Estudiantes</p>
+                        </div>
+                    </div>
+        
+        
+        
+                </div>
+        
+            </div>
+            <script src="js/ticket.js"></script>
+            <script src="js/bootstrap.bundle.min.js"></script>
+        
+        </body>
+</html>

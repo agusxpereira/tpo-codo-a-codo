@@ -1,11 +1,11 @@
-.box{
+/* .box{
     min-width: 150px;
     max-width: 150px;
     max-height: 150px;
     min-height: 150px;
     background-color: cornflowerblue;
     border: 1px solid black;
-} 
+}  */
 
 .header{
     max-height: 15%;
@@ -67,6 +67,8 @@ span > li{
 
 .item-group-button{
     width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
 } 
 .btn-content{
     min-width: 190px;
@@ -127,4 +129,105 @@ span > li{
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px white solid;
     border-radius: 5%;
+}
+.content{
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap;
+} 
+
+.cupones{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+    gap: 5px;
+    
+}
+.box{
+    /* border: solid 2px; */
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box > span{
+    font-size: 8px;
+}
+.student{
+    border: solid 0.1em rgb(75, 75, 184);
+}
+.trainee{
+    border: solid 0.1em rgb(4, 105, 145);
+}
+.junior{
+    border: solid 0.1em yellow;
+} 
+
+.formulario{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    margin-top: 5px;
+    flex-wrap: nowrap;
+}
+.form-compra{
+    width: 650px;
+    border: 1px solid;
+    min-width: 300px;
+}
+.formulario > span{
+    font-size: 12px;
+} 
+.input{
+    margin: 5px;
+    border: solid 1px gray;
+    border-radius: 2%;
+    width: 100%;
+}
+.input-group{
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.input-group > .input{
+    width: 50%;
+}
+#categoria{
+    margin-left: 5px;
+    appearance: none;
+    min-width: 295px;
+    max-width: 295px;
+    text-align: center;
+    border: 1px solid;
+    background-color: rgba(252, 252, 252, 0.5);
+
+
+}
+
+.btn-accion{
+    margin: 10px 0px 0px 5px;  
+    min-width: 50%;
+    max-width: 50%;
+    background-color: rgba(64, 165, 86, 0.651);
+}
+.total{
+    margin-top: 10px;
+    background-color: rgba(37, 90, 160, 0.5);
+    color: blue;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.total > p{
+    text-align: center;
 }
